@@ -69,6 +69,10 @@ Global Styles
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
+  background-image: url("../images/bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -243,5 +247,13 @@ nav {
   }
   .social-icons a:hover {
     color: var(--clr-primary-7);
+  }
+
+  .header{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
 }
